@@ -1,0 +1,8 @@
+salary=input("enter salary")
+print(salary)
+yos=int(input("enter year of services"))
+print(yos)
+if yos > 5:
+    print("bouns is ",0.5*salary)
+else:
+    print("no bouns")
